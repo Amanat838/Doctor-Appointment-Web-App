@@ -32,7 +32,7 @@ const Login = () => {
       {
         state === 'Sign Up' ? 
         <p>Already have an account? <span onClick={()=> setState('Login')} className='text-blue-700 cursor-pointer'>Login here</span></p>:
-        <p>Create a new account? <span onClick={()=> setState('Sign Up')} className='text-blue-700 cursor-pointer'>click here</span></p>
+        <p>Create a new account? <span onClick={()=> setState('Sign Up')} className='text-blue-700 cursor-pointer'>Click here</span></p>
       }
       
     </form>
